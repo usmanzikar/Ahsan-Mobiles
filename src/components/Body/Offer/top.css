@@ -1,0 +1,49 @@
+.container{
+    width: 22rem;
+    display:inline-flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 5%;
+   
+}
+.top-offers{
+    color:#000;
+    font-size: 4rem;
+    text-align: center;
+}
+h4{
+    color: rgb(0, 102, 255);
+}
+h4 span{
+    color: rgb(226, 19, 88);
+}
+.container:hover{
+    transform: translateY(20px);
+}
+/* .topoffer{
+    background: linear-gradient(90deg, #00aaee 10%, #DD2476 90%);
+} */
+
+.top-img{
+width: 70%;
+justify-content: center;
+align-items: center;
+margin-left: 15%;
+cursor: pointer;
+}
+.top-img:hover{
+    width: 100%;
+    margin-left: 0px;
+}
+@media only screen and (max-width: 600px) {
+    .top-offers {
+       font-size:  1.5rem;
+     }
+     .container{
+         width: 50%;
+         margin: 0;
+     }
+     .flag{
+         font-size: 2rem !important;
+     }
+    } 
